@@ -21,23 +21,27 @@ export struct OhProgress {
   @State style: number = Style.Line
   @State delay: number = 0
   @State curve: Curve | string = Curve.Linear
+  @State strokeOffset: number = 0
+  @State angle: number = 0
   @State trackColor: string = '#d7b6fd'
-  @State trackThickness: number = 4
-  @State @Watch('switchMode') indeterminate: boolean = false
-  @State @Watch('resize') indicatorSize: number = 48
   @State indicatorColor: string = '#6100ee'
-  @State showDelay: number = 0
+  @State @Watch('switchMode') indeterminate: boolean = false
+  @State @Watch('resize') trackThickness: number = 4
+  @State @Watch('resizeCir') indicatorSize: number = 48
   @State @Watch('resize') indicatorInset: number = 4
   @State @Watch('resize') indicatorDirection: number = 1
   @State @Watch('setValue') value: number = 0
-  @State strokeOffset: number = 0
-  @State angle: number = 0
   private curIns: CirProgress | LineProgress
   private path: string
   private strokeArray: number[]
   private arcLength: number
 
   private aboutToAppear(): void {
+    this.resize()
+  }
+
+  private resizeCir(): void {
+    if(this.style === Style.Line) return
     this.resize()
   }
 

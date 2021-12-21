@@ -1,7 +1,4 @@
-import { LineProgress } from './progress.ets'
-
 export function initLinePath() {
-  const { trackThickness } = this.curIns as LineProgress
   const width = vp2px(this.layoutWidth as number)
   const height = vp2px(this.layoutHeight as number)
 
