@@ -1,1 +1,22 @@
-{}
+{
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {
+    "@oho-ui/progress": "file:package/progress",
+    "@oho-ui/swiper-layout": "file:package/swiper-layout",
+    "oho-ui": "file:package/oho-ui"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/originjs/oho-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/originjs/oho-ui/issues"
+  },
+  "homepage": "https://github.com/originjs/oho-ui#readme"
+}
