@@ -51,7 +51,9 @@
           "type": "pageAbility"
         },
         "pages": [
-          "pages/index"
+          "pages/index",
+          "pages/progressDem",
+          "pages/swiperLayoutDem"
         ],
         "name": "default",
         "window": {

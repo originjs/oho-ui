@@ -62,7 +62,7 @@ export struct OhProgress {
   }
 
   private getInstance (style: number): CirProgress | LineProgress {
-    let intance: CirProgress | LineProgress
+    let instance: CirProgress | LineProgress
     const base = {
       trackThickness: this.trackThickness,
       trackColor: this.trackColor,
@@ -70,7 +70,7 @@ export struct OhProgress {
       indicatorDirection: this.indicatorDirection
     }
     if(style === Style.Line) {
-      intance = {
+      instance = {
         ...base,
         indeterminateAnimationType: 1,
         initPath: initLinePath.bind(this),
@@ -80,7 +80,7 @@ export struct OhProgress {
         switchMode: switchLineMode.bind(this)
       }
     } else {
-      intance = {
+      instance = {
         ...base,
         indicatorSize: this.indicatorSize,
         indicatorInset: this.indicatorInset,
@@ -91,7 +91,7 @@ export struct OhProgress {
         switchMode: switchCirMode.bind(this)
       }
     }
-    return intance
+    return instance
   }
 
   private enableAnima(): boolean {
