@@ -14,3 +14,4 @@
 /entry/.preview
 .cxx
 /node_modules
+/entry/node_modules
