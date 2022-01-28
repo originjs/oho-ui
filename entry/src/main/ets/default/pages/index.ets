@@ -3,8 +3,6 @@ import router from '@system.router';
 @Entry
 @Component
 struct Index {
-
-  @State historyInput:string = '123'
   build() {
     Column() {
       Row({space: 30}){

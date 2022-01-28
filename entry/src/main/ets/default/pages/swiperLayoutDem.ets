@@ -1,5 +1,5 @@
 import router from '@system.router';
-import { OhSwiperLayout, Item, Render } from '@oho-ui/swiper-layout'
+import { OhSwiperLayout, Item, Render } from 'oho-ui'
 
 @Entry
 @Component
@@ -37,7 +37,7 @@ export struct SwiperLayoutDem{
   @Builder body () {
     Row() {
       Text('这是主视窗').fontSize(30)
-    }.width('100%').backgroundColor('#ff5722')
+    }.width('100%').height('100%').backgroundColor('#ff5722')
   }
 
   @Builder floatLayer () {
@@ -68,6 +68,7 @@ export struct SwiperLayoutDem{
         }.width('70%')
         Row() {}.width('15%')
       }
+      .zIndex(10)
     }
   }
 }
