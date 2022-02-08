@@ -1,4 +1,4 @@
-import { OhProgress } from 'oho-ui'
+import { OhProgress } from 'oho-ui/progress/src/ohProgress'
 import router from '@system.router';
 @Entry
 @Component

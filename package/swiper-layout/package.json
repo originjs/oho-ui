@@ -1,7 +1,0 @@
-{
-  "name": "@oho-ui/swiper-layout",
-  "version": "0.0.1",
-  "module": "./index.ets",
-  "main": "./src/ohSwiperLayout.ets",
-  "license": "ISC"
-}

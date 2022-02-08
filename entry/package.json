@@ -2,9 +2,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "devDependencies": {
-    "@oho-ui/progress": "file:../package/progress",
-    "@oho-ui/swiper-layout": "file:../package/swiper-layout",
-    "oho-ui": "file:../package/oho-ui"
+    "oho-ui": "file:../packages"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

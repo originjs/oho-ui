@@ -1,1 +1,0 @@
-export { OhProgress } from './src/ohProgress.ets'

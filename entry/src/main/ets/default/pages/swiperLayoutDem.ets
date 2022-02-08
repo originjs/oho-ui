@@ -1,5 +1,5 @@
 import router from '@system.router';
-import { OhSwiperLayout, Item, Render } from 'oho-ui'
+import { OhSwiperLayout, Item, Render } from 'oho-ui/swiper-layout/src/ohSwiperLayout'
 
 @Entry
 @Component

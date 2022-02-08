@@ -1,0 +1,7 @@
+{
+  "name": "oho",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./index.ets",
+  "module": "./index.ets"
+}
