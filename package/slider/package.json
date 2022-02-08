@@ -1,0 +1,7 @@
+{
+  "name": "@oho-ui/slider",
+  "version": "0.0.1",
+  "main": "./src/ohSlider.ets",
+  "module": "./index.ets",
+  "license": "ISC"
+}
