@@ -1,4 +1,4 @@
-import {OhStepper} from 'oho-ui'
+import { OhStepper } from 'oho-ui'
 
 @Entry
 @Component
