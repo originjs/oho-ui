@@ -1,0 +1,7 @@
+{
+  "name": "@oho-ui/progress",
+  "version": "0.0.1",
+  "main": "./src/ohProgress.ets",
+  "module": "./index.ets",
+  "license": "ISC"
+}

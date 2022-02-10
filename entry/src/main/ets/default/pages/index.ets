@@ -5,7 +5,7 @@ import router from '@system.router';
 struct Index {
   build() {
     Column() {
-      Row({space: 30}){
+      Column({space: 30}){
         Button('progressDem').onClick(() => {
           router.push({
             uri: 'pages/progressDem'
@@ -14,6 +14,11 @@ struct Index {
         Button('swiperLayout').onClick(() => {
           router.push({
             uri: 'pages/swiperLayoutDem'
+          })
+        })
+        Button('stepper').onClick(() => {
+          router.push({
+            uri: 'pages/stepperDem'
           })
         })
       }

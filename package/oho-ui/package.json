@@ -6,6 +6,7 @@
   "module": "./index.ets",
   "dependencies": {
     "@oho-ui/progress": "file:../progress",
-    "@oho-ui/swiper-layout": "file:../swiper-layout"
+    "@oho-ui/swiper-layout": "file:../swiper-layout",
+    "@oho-ui/stepper": "file:../stepper"
   }
 }
