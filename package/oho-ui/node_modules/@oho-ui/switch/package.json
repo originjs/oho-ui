@@ -1,0 +1,7 @@
+{
+  "name": "@oho-ui/switch",
+  "version": "0.0.1",
+  "main": "./src/ohSwitch.ets",
+  "module": "./index.ets",
+  "license": "ISC"
+}
