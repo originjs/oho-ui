@@ -4,6 +4,8 @@
   "devDependencies": {
     "@oho-ui/progress": "file:package/progress",
     "@oho-ui/swiper-layout": "file:package/swiper-layout",
+    "@oho-ui/slider": "file:package/slider",
+    "@oho-ui/switch": "file:package/switch",
     "oho-ui": "file:package/oho-ui"
   },
   "scripts": {

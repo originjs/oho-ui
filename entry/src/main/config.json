@@ -53,7 +53,9 @@
         "pages": [
           "pages/index",
           "pages/progressDem",
-          "pages/swiperLayoutDem"
+          "pages/swiperLayoutDem",
+          "pages/sliderDem",
+          "pages/switchDem"
         ],
         "name": "default",
         "window": {
