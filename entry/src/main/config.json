@@ -54,7 +54,9 @@
           "pages/index",
           "pages/progressDem",
           "pages/swiperLayoutDem",
-          "pages/stepperDem"
+          "pages/stepperDem",
+          "pages/sliderDem",
+          "pages/switchDem"
         ],
         "name": "default",
         "window": {

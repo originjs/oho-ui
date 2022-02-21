@@ -5,15 +5,20 @@ import router from '@system.router';
 struct Index {
   build() {
     Column() {
-      Column({space: 30}){
+      Column({ space: 30 }) {
         Button('progressDem').onClick(() => {
           router.push({
             uri: 'pages/progressDem'
           })
         })
-        Button('swiperLayout').onClick(() => {
+        Button('sliderDem').onClick(() => {
           router.push({
-            uri: 'pages/swiperLayoutDem'
+            uri: 'pages/sliderDem'
+          })
+        })
+        Button('switchDem').onClick(() => {
+          router.push({
+            uri: 'pages/switchDem'
           })
         })
         Button('stepper').onClick(() => {
@@ -21,9 +26,15 @@ struct Index {
             uri: 'pages/stepperDem'
           })
         })
+        Button('swiperLayout').onClick(() => {
+          router.push({
+            uri: 'pages/swiperLayoutDem'
+          })
+        })
       }
     }
     .width('100%')
     .height('100%')
+    .margin({ top: 5 })
   }
 }
