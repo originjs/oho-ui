@@ -54,6 +54,7 @@
           "pages/index",
           "pages/progressDem",
           "pages/swiperLayoutDem",
+          "pages/stepperDem",
           "pages/sliderDem",
           "pages/switchDem"
         ],

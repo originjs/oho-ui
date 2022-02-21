@@ -7,6 +7,8 @@
   "dependencies": {
     "@oho-ui/progress": "file:../progress",
     "@oho-ui/swiper-layout": "file:../swiper-layout",
-    "@oho-ui/slider": "file:../slider"
+    "@oho-ui/stepper": "file:../stepper",
+    "@oho-ui/slider": "file:../slider",
+    "@oho-ui/switch": "file:../switch"
   }
 }

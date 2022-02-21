@@ -1,0 +1,7 @@
+{
+  "name": "@oho-ui/stepper",
+  "version": "0.0.1",
+  "main": "./src/ohStepper.ets",
+  "module": "./index.ets",
+  "license": "ISC"
+}
